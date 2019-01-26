@@ -3,8 +3,14 @@
 	color: white;
 }
 
-.header .header__nav {
-
+.header__title{
+	padding: 15px 50px;
+}
+.headline__h1{
+	margin-bottom: 0;
+}
+.headline__h4{
+	margin-top:0; 
 }
 .header__nav_top-left{
 	position: absolute;
