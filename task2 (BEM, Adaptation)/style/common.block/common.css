@@ -1,0 +1,22 @@
+.text-uppercase{
+    text-transform: uppercase;
+}
+.main{
+	    display: grid;
+    grid-template-areas: "header header" "article aside";
+    grid-template-rows: 80px 1fr;
+    grid-template-columns: 0.8fr 0.2fr;
+}
+
+.main__nav{
+	grid-area: header;
+}
+.main__article {
+	grid-area: article;
+}
+.main__aside {
+	grid-area: aside;
+}
+.user-inform__image {
+    width: 100px;
+}
