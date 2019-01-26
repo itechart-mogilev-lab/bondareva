@@ -2,6 +2,10 @@
 	background: #ED8919FF;
 	color: white;
 }
+
+.header .header__nav {
+
+}
 .header__nav_top-left{
 	position: absolute;
     right: 30px;

@@ -1,0 +1,20 @@
+.article__image {
+	border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 5px;
+    width: 200px;
+}
+
+.article{
+	display: grid;
+    grid-template-columns: 250px 1fr;
+    padding: 10px 25px;
+}
+.article__button{
+	background: #eb6c1f;
+    padding: 5px 15px;
+    border-radius: 8px;
+}
+.article_grey{
+	background: #cac9c9;
+}
