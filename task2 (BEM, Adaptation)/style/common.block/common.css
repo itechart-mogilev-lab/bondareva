@@ -1,11 +1,13 @@
 .text-uppercase{
     text-transform: uppercase;
 }
+
 .main{
 	    display: grid;
     grid-template-areas: "header header" "article aside";
     grid-template-rows: 80px 1fr;
     grid-template-columns: 0.8fr 0.2fr;
+    grid-gap: 10px;
 }
 
 .main__nav{
@@ -16,6 +18,8 @@
 }
 .main__aside {
 	grid-area: aside;
+	background: #e4dfdf;
+	padding: 0 15px;
 }
 .user-inform__image {
     width: 100px;
