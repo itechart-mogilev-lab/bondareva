@@ -1,0 +1,24 @@
+.header {
+	background: #ED8919FF;
+	color: white;
+}
+.header__nav_top-left{
+	position: absolute;
+    right: 30px;
+    background: #9c6a2b94;
+    border-radius: 0 0 15px 15px;
+}
+.menu {
+	display: flex;
+    list-style: none;
+}
+.menu__item {
+	padding: 3px;
+    margin-right: 10px;
+}
+.menu__href{
+	text-decoration: none;
+}
+.menu__href_white{
+	color: white;
+}
