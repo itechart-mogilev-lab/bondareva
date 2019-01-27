@@ -11,10 +11,12 @@
 }
 .main__article {
 	grid-area: article;
+    margin-left: 25px;
 }
 .main__aside {
 	grid-area: aside;
 	background: #e4dfdf;
 	padding: 0 15px;
+	margin-right: 40px;
 }
 
