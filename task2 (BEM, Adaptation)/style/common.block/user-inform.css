@@ -1,0 +1,30 @@
+.user-inform{
+	margin-bottom: 20px;
+	height: 150px;
+}
+.user-inform__content{
+	display: flex;
+}
+.user-inform__content-orange{
+	 height: 110px;
+    background: orange;
+    padding: 10px 5px 0 5px;
+    border-radius: 0 10px 4px 4px;
+}
+.user-inform__content-white{
+	background: white;
+    /* margin: 10px 10px 0 10px; */
+    padding: 5px 0 0 0;
+    border-radius: 0 5px 5px;
+}
+.user-inform__info{
+	margin-left: 10px;
+}
+.user-inform__name{
+	margin: 0;
+	font-style: italic;
+}
+
+.user-inform__image {
+    height: 100px;
+}

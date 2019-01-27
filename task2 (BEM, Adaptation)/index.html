@@ -4,12 +4,16 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="style/common.block/header/header.css">
-	<link rel="stylesheet" type="text/css" href="style/common.block/article/article.css">
+	<link rel="stylesheet" type="text/css" href="style/common.block/header.css">
+	<link rel="stylesheet" type="text/css" href="style/common.block/main.css">
+	<link rel="stylesheet" type="text/css" href="style/common.block/menu.css">
+	<link rel="stylesheet" type="text/css" href="style/common.block/article.css">
 	<link rel="stylesheet" type="text/css" href="style/common.block/common.css">
-	<link rel="stylesheet" type="text/css" href="style/common.block/list/list.css">
+	<link rel="stylesheet" type="text/css" href="style/common.block/list.css">
+	<link rel="stylesheet" type="text/css" href="style/common.block/user-inform.css">
 </head>
 <body>
+	<div class="page">
 	<header class="header">
 		<nav class="header__nav header__nav_top-left">
 			<ul class="menu menu_smal">
@@ -33,11 +37,11 @@
 	<main class="main">
 		<nav class="main__nav" >
 			<ul class="menu">
-				<li class="menu__item menu__item_current"><a class="menu__href" href="">Home</a></li>
-				<li class="menu__item" ><a class="menu__href" href="#">Our products</a></li>
-				<li class="menu__item"><a class="menu__href" href="#">About us</a></li>
-				<li class="menu__item"><a class="menu__href" href="#">Portfolio</a></li>
-				<li class="menu__item"><a class="menu__href" href="#">Contacts</a></li>
+				<li class="menu__item  menu__item_border "><a href="" class="menu__href_orange menu__href_current">Home</a></li>
+				<li class="menu__item menu__item_border menu__item_orange" ><a class="menu__href menu__href_orange" href="#">Our products</a></li>
+				<li class="menu__item menu__item_border menu__item_orange"><a class="menu__href menu__href_orange" href="#">About us</a></li>
+				<li class="menu__item menu__item_border menu__item_orange"><a class="menu__href menu__href_orange" href="#">Portfolio</a></li>
+				<li class="menu__item menu__item_orange"><a class="menu__href menu__href_orange" href="#">Contacts</a></li>
 			</ul>
 		</nav>
 
@@ -80,13 +84,17 @@
 		</article>
 
 		<aside class="main__aside">
-			<section class="user-infrorm">
+			<section class="user-inform">
 				<h3 class="user-inform__title text-uppercase">About me</h3>
 				<div class="user-inform__content">
-					<img src="img/user.png" alt="" class="user-inform__image">
+					<div class="user-inform__content-orange">
+						<div class="user-inform__content-white">
+							<img src="img/user.png" alt="" class="user-inform__image">
+						</div>
+					</div>
 					<div class="user-inform__info">
 						<h4 class="user-inform__name">Name Surname</h4>
-						<p class="user-inform__about">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+						<p class="user-inform__about">It is a long established fact that a reader will be distracted by the readable content of a page.</p>
 					</div>
 				</div>
 			</section>
@@ -126,5 +134,6 @@
 	<footer>
 		<p>&copy; 2019 <strong>ITechArt</strong> </p>
 	</footer>
+</div>
 </body>
 </html>

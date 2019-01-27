@@ -18,20 +18,6 @@
     background: #9c6a2b94;
     border-radius: 0 0 15px 15px;
 }
-.menu {
-	display: flex;
-    list-style: none;
-}
-.menu__item {
-	padding: 3px;
-    margin-right: 10px;
-}
-.menu__href{
-	text-decoration: none;
-}
-.menu__href_white{
-	color: white;
-}
 
 .search-form_ritght{
 	position: absolute;
@@ -53,3 +39,5 @@
     background: #be5125;
     border: 1px solid #c76e10;
 }
+
+
