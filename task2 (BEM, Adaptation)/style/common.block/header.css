@@ -1,8 +1,19 @@
 .header {
-	background: #ED8919FF;
 	color: white;
+    position: relative;
 }
-
+.header__up{
+    background: #ED8919FF;
+    padding-bottom: 15px;
+}
+.header__down {
+    margin: -5px 5%;
+}
+.down{
+    height: 15px;
+    background: #ed8919;
+    border-radius: 0 0 15px 15px;
+}
 .header__title{
 	padding: 15px 50px;
 }
