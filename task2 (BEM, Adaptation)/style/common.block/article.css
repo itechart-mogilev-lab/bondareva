@@ -7,8 +7,12 @@
 
 .article{
     padding: 10px 25px;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #afb3b7;
     position: relative;
+}
+.article_grey{
+  background: #cac9c9;
+  border-bottom: 0;
 }
 .article_grey::after{
     position: absolute;
@@ -92,9 +96,7 @@
 .article__title{
   margin-left: 20px;
 }
-.article_grey{
-	background: #cac9c9;
-}
+
 .content__text{
     position: relative;
 }
