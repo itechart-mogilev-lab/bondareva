@@ -16,6 +16,9 @@
 	text-decoration: none;
 	color: #2b1e1e;
 }
+.menu__item:hover{
+	background: #5F9793FF;
+}
 .menu__href_orange{
 	color: #862712FF
 }

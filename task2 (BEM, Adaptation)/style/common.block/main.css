@@ -27,3 +27,33 @@
 	/*margin-right: 40px;*/
 }
 
+.main__burger {
+	 display: none;
+    color: #ffffff;
+    font-size: 1.5rem;
+    top: 150px;
+    background: #2e1121;
+    left: 0;
+    padding: 0 5px;
+    display: po;
+    position: absolute;
+}
+.sidebar__burger{
+	position: absolute;
+    color: #464343;
+    background: #00b8ff;
+    padding: 0 5px;
+    font-size: 1.5rem;
+    display: none;
+    right: 0;
+    top: 150px;
+}
+#burger__menu {
+    display: none;
+    right: 3rem;
+    top: 3rem;
+}
+#burger__left{
+	display: none;
+}
+

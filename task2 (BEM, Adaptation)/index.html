@@ -17,6 +17,7 @@
 	<link rel="stylesheet" type="text/css" href="style/common.block/user-inform.css">
 	<link rel="stylesheet" type="text/css" href="style/common.block/footer.css">
 	<link rel="stylesheet" type="text/css" href="style/common.block/taplet.media.css">
+	<link rel="stylesheet" type="text/css" href="style/common.block/mobile.media.css">
 </head>
 <body>
 	<div class="page">
@@ -40,12 +41,15 @@
 			</div>
 		</div>
 		<div class="header__down down">
-			<!-- <div class="down"></div> -->
 		</div>
 	</header>
 
 	<main class="main_center main">
 		<nav class="main__nav" >
+			<input type="checkbox" class=" burger__check" id="burger__menu">
+			<label class=" burger main__burger" for="burger__menu">
+				<i class="fas fa-bars"></i>
+			</label>
 			<ul class="menu main__menu">
 				<li class="menu__item  menu__item_border "><a href="" class="menu__href_orange menu__href_current">Home</a></li>
 				<li class="menu__item menu__item_border menu__item_orange" ><a class="menu__href menu__href_orange" href="#">Our products</a></li>
@@ -114,65 +118,68 @@
 			</section>
 		</article>
 
-		<aside class="main__aside">
-			<section class="user-inform">
-				<h3 class="user-inform__title text-uppercase">About me</h3>
-				<div class="user-inform__content">
-					<div class="user-inform__content-orange">
-						<div class="user-inform__content-white">
-							<img src="img/user.png" alt="" class="user-inform__image">
+		<div class="sidebar">
+		    <input type="checkbox" class="burger__check" id="burger__left">
+			<label class=" burger sidebar__burger" for="burger__left">
+				<i class="fa fa-arrow-left" aria-hidden="true"></i>
+			</label>
+			<aside class="main__aside">
+				<section class="user-inform">
+					<h3 class="user-inform__title text-uppercase">About me</h3>
+					<div class="user-inform__content">
+						<div class="user-inform__content-orange">
+							<div class="user-inform__content-white">
+								<img src="img/user.png" alt="" class="user-inform__image">
+							</div>
+						</div>
+						<div class="user-inform__info">
+							<h4 class="user-inform__name">Name Surname</h4>
+							<p class="user-inform__about ">It is a long established fact that a reader will be distracted by the readable content of a page.</p>
 						</div>
 					</div>
-					<div class="user-inform__info">
-						<h4 class="user-inform__name">Name Surname</h4>
-						<p class="user-inform__about ">It is a long established fact that a reader will be distracted by the readable content of a page.</p>
-					</div>
-				</div>
-			</section>
-			
+				</section>
 
-			<nav>
-				<h3 class="text-uppercase">Categories</h3>
-				<div class="list">
-					<div class="list__item"><a class="menu__href" href="#">Business</a></div>
-					<div class="list__item"><a class="menu__href" href="#">Art & Photograpty</a></div>
-					<div class="list__item"><a class="menu__href" href="#">Communications</a></div>
-					<div class="list__item"><a class="menu__href" href="#">Fashion</a></div>
-					<div class="list__item"><a class="menu__href" href="#">Sport</a></div>
-					<div class="list__item"><a class="menu__href" href="#">Travel</a></div>
-					<div class="list__item"><a class="menu__href" href="#">Web design</a></div>
-					<div class="list__item"><a class="menu__href" href="#">Music</a></div>
-					<div class="list__item"><a class="menu__href" href="#">Weather</a></div>
-				</ul>
-			</nav>
-			
-			<nav>
-				<h3 class="text-uppercase">Entries by month</h3>
-				<div class="list">
-					<div class="list__item"><a class="menu__href" href="#">August 2012 (35)</a></div>
-					<div class="list__item"><a class="menu__href" href="#">July 2013 (50)</a></div>
-					<div class="list__item"><a class="menu__href" href="#">June 2014 (23)</a></div>
-					<div class="list__item"><a class="menu__href" href="#">April 2015 (42)</a></div>
-					<div class="list__item"><a class="menu__href" href="#">May 2016 (29)</a></div>
-					<div class="list__item"><a class="menu__href" href="#">November 2017 (45)</a></div>
-					<div class="list__item"><a class="menu__href" href="#">December 2018 (15)</a></div>
-				</ul>
-			</nav>
+				<nav>
+					<h3 class="text-uppercase">Categories</h3>
+					<div class="list">
+						<div class="list__item"><a class="menu__href" href="#">Business</a></div>
+						<div class="list__item"><a class="menu__href" href="#">Art & Photograpty</a></div>
+						<div class="list__item"><a class="menu__href" href="#">Communications</a></div>
+						<div class="list__item"><a class="menu__href" href="#">Fashion</a></div>
+						<div class="list__item"><a class="menu__href" href="#">Sport</a></div>
+						<div class="list__item"><a class="menu__href" href="#">Travel</a></div>
+						<div class="list__item"><a class="menu__href" href="#">Web design</a></div>
+						<div class="list__item"><a class="menu__href" href="#">Music</a></div>
+						<div class="list__item"><a class="menu__href" href="#">Weather</a></div>
+					</ul>
+				</nav>
+				
+				<nav>
+					<h3 class="text-uppercase">Entries by month</h3>
+					<div class="list">
+						<div class="list__item"><a class="menu__href" href="#">August 2012 (35)</a></div>
+						<div class="list__item"><a class="menu__href" href="#">July 2013 (50)</a></div>
+						<div class="list__item"><a class="menu__href" href="#">June 2014 (23)</a></div>
+						<div class="list__item"><a class="menu__href" href="#">April 2015 (42)</a></div>
+						<div class="list__item"><a class="menu__href" href="#">May 2016 (29)</a></div>
+						<div class="list__item"><a class="menu__href" href="#">November 2017 (45)</a></div>
+						<div class="list__item"><a class="menu__href" href="#">December 2018 (15)</a></div>
+					</ul>
+				</nav>
 
-			<nav>
-				<h3 class="text-uppercase">Entries by month</h3>
-				<div class="list">
-					<div class="list__item"><a class="menu__href" href="#">August 2012 (35)</a></div>
-					<div class="list__item"><a class="menu__href" href="#">July 2013 (50)</a></div>
-					<div class="list__item"><a class="menu__href" href="#">June 2014 (23)</a></div>
-					<div class="list__item"><a class="menu__href" href="#">April 2015 (42)</a></div>
-					<div class="list__item"><a class="menu__href" href="#">May 2016 (29)</a></div>
-					<div class="list__item"><a class="menu__href" href="#">November 2017 (45)</a></div>
-					<div class="list__item"><a class="menu__href" href="#">December 2018 (15)</a></div>
-				</ul>
-			</nav>
-			
-		</aside>
+				<nav>
+					<h3 class="text-uppercase">Entries by month</h3>
+					<div class="list">
+						<div class="list__item"><a class="menu__href" href="#">August 2012 (35)</a></div>
+						<div class="list__item"><a class="menu__href" href="#">July 2013 (50)</a></div>
+						<div class="list__item"><a class="menu__href" href="#">June 2014 (23)</a></div>
+						<div class="list__item"><a class="menu__href" href="#">April 2015 (42)</a></div>
+						<div class="list__item"><a class="menu__href" href="#">May 2016 (29)</a></div>
+						<div class="list__item"><a class="menu__href" href="#">November 2017 (45)</a></div>
+						<div class="list__item"><a class="menu__href" href="#">December 2018 (15)</a></div>
+					</ul>
+				</nav>
+			</aside>
 	</main>
 
 	<footer class="footer">
