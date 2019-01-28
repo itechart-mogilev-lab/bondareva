@@ -1,10 +1,11 @@
 .text-uppercase{
     text-transform: uppercase;
 }
-
+.text_raleway{
+	font-family: 'Raleway', sans-serif;
+}
 body{
-	/*font-family: 'Raleway', sans-serif;*/
-	/*font-family: 'Slabo 27px', serif;*/
 	font-family: 'Krub', sans-serif;
+	margin: 0;
 }
 
