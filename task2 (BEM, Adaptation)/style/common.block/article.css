@@ -1,10 +1,21 @@
 .article__image {
-	border: 1px solid #ddd;
+	  border: 1px solid #ddd;
     border-radius: 15px;
     padding: 5px;
+    height: 150px;
     width: 200px;
+    background-position: center;
+    background-size: cover;
 }
-
+.image_man{
+   background-image: url(../../img/man.jpg);
+}
+.image_cat{
+   background-image: url(../../img/cat.jpg);
+}
+.image_laptop{
+   background-image: url(../../img/laptop.jpg);
+}
 .article{
     padding: 10px 25px;
     border-bottom: 1px solid #afb3b7;
@@ -83,11 +94,11 @@
 .article__content{
     display: grid;
     height: 200px;
-
+    grid-gap: 10px;
     grid-template-columns: 0.3fr 1fr;
 }
 .article__button{
-	background: #eb6c1f;
+	  background: #eb6c1f;
     padding: 5px 15px;
     border-radius: 8px;
     position: absolute;

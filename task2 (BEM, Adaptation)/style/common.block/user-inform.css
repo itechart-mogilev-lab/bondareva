@@ -1,6 +1,7 @@
 .user-inform{
 	margin-bottom: 20px;
-	height: 150px;
+	height: 200px;
+    overflow: hidden;
 }
 .user-inform__content{
 	display: flex;

@@ -13,7 +13,7 @@
 }
 .main__article {
 	grid-area: article;
-    margin-left: 25px;
+    margin-left: 50px;
 }
 .main__aside {
 	grid-area: aside;
