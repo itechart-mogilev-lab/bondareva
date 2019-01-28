@@ -89,6 +89,9 @@
     position: absolute;
     right: 50px;
 }
+.article__title{
+  margin-left: 20px;
+}
 .article_grey{
 	background: #cac9c9;
 }

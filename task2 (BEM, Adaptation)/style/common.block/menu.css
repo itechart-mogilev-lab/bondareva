@@ -2,6 +2,11 @@
 	display: flex;
     list-style: none;
 }
+.menu_smal{
+	margin: 5px;
+    padding-left: 10px;
+    font-size: 14px;
+}
 .menu__item {
 	padding: 3px;
     margin-right: 10px;
@@ -23,4 +28,8 @@
 .menu__item_border{
 	 border-right: 1px solid;
 	padding-right:  10px;
+}
+
+.menu__icon{
+	margin-right: 5px;
 }
