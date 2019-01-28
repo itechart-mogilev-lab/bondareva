@@ -3,10 +3,8 @@
     position: relative;
 }
 .header__up{
-    /*background: #ED8919FF;*/
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(129,49,27,1) 14%, rgba(208,80,21,1) 32%, rgba(190,92,42,1) 43%, rgba(104,146,138,1) 69%, rgba(0,212,255,1) 100%);
-/*background: linear-gradient(90deg, rgba(2,0,36,1) 2%, rgba(129,49,27,1) 17%, rgba(208,80,21,1) 28%, rgba(190,92,42,1) 42%, rgba(104,146,138,1) 62%, rgba(0,212,255,1) 100%);*/
     padding-bottom: 15px;
 }
 .header__down {

@@ -30,7 +30,7 @@
 }
 @media (max-width: 380px ){
 	.search-form_ritght, .header__nav_top-left{
-	 display: none;
+	 	display: none;
 	}
 	.header__title{
 		margin-left: 30px;
@@ -64,7 +64,7 @@
 		display: block;
 	}
 	.main__burger {
-    display: inline-block;
+    	display: inline-block;
 	}
 	#burger__menu:checked~.main__menu {
 	    display: block;

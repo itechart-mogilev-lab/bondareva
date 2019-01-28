@@ -7,14 +7,13 @@
 	display: flex;
 }
 .user-inform__content-orange{
-	 height: 110px;
+	height: 110px;
     background: orange;
     padding: 10px 5px 0 5px;
     border-radius: 0 10px 4px 4px;
 }
 .user-inform__content-white{
 	background: white;
-    /* margin: 10px 10px 0 10px; */
     padding: 5px 0 0 0;
     border-radius: 0 5px 5px;
 }
