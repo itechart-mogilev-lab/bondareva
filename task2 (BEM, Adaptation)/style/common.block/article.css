@@ -60,7 +60,7 @@
 .wrap:before {
   width: 40px;
   height: 8px;
-  right: 100px;
+  right: 90px;
   background: #5B120A;
   border-radius: 8px 8px 0px 0px;
 }
@@ -68,13 +68,13 @@
   width: 8px;
   height: 40px;
   right: 0px;
-  top: 100px;
+  top: 90px;
   background: #5B120A;
   border-radius: 0px 8px 8px 0px;
 }
 .ribbon {
   width: 200px;
-  height: 40px;
+  height: 30px;
   line-height: 40px;
   position: absolute;
   top: 30px;
@@ -90,6 +90,8 @@
 }
 .article__text{
     margin: 0 0 10px 0;
+    height: 120px;
+    overflow: hidden;
 }
 .article__content{
     display: grid;

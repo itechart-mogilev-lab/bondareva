@@ -1,0 +1,12 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+	.article__image{
+		width: 180px;
+		height: 150px;
+	}
+	.main{
+		margin: 0;
+	}
+	.footer{
+		margin: 10px 0 0 0;
+	}
+}
