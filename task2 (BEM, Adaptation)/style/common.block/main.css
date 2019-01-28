@@ -5,7 +5,9 @@
     grid-template-columns: 1fr 0.4fr;
     grid-gap: 0 10px;
 }
-
+.main__menu{
+	 margin-left: 25px;
+}
 .main__nav{
 	grid-area: header;
 }

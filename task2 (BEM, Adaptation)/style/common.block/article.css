@@ -10,11 +10,6 @@
     border-bottom: 1px solid;
     position: relative;
 }
-/*.article::before{
-    content: "";
-    bottom: -25px;
-    border-top: 25px solid #F1CCAE;
-}*/
 .article_grey::after{
     position: absolute;
     content: "";
@@ -51,7 +46,7 @@
   width: 40px;
   height: 8px;
   right: 100px;
-  background: #4D6530;
+  background: #5B120A;
   border-radius: 8px 8px 0px 0px;
 }
 .wrap:after {
@@ -59,7 +54,7 @@
   height: 40px;
   right: 0px;
   top: 100px;
-  background: #4D6530;
+  background: #5B120A;
   border-radius: 0px 8px 8px 0px;
 }
 .ribbon {

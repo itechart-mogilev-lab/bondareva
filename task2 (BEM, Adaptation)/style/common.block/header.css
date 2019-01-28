@@ -16,6 +16,7 @@
 }
 .header__title{
 	padding: 15px 50px;
+    margin-left: 25px;
 }
 .headline__h1{
 	margin-bottom: 0;
@@ -25,14 +26,14 @@
 }
 .header__nav_top-left{
 	position: absolute;
-    right: 60px;
+    right: 100px;
     background: #9c6a2b94;
     border-radius: 0 0 15px 15px;
 }
 
 .search-form_ritght{
 	position: absolute;
-    right: 60px;
+    right: 100px;
     top: 100px;
 }
 .search-form__input{
