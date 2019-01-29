@@ -1,11 +1,13 @@
 .article__image {
-	  border: 1px solid #ddd;
-    border-radius: 15px;
     padding: 5px;
+}
+.image{
     height: 150px;
     width: 200px;
     background-position: center;
     background-size: cover;
+    border: 1px solid #ddd;
+    border-radius: 15px;
 }
 .image_man{
    background-image: url(../../img/man.jpg);
@@ -48,45 +50,54 @@
 .wrap {
   width: 100%;
   height: 188px;
+  overflow: hidden;
+}
+.article__wrap{
   position: absolute;
   top: -8px;
   left: 8px;
-  overflow: hidden;
 }
-.wrap:before, .wrap:after {
+.article__wrap:before, .article__wrap:after {
   content: ""; 
   position: absolute;
 }
+
 .wrap:before {
   width: 40px;
   height: 8px;
-  right: 90px;
   background: #5B120A;
   border-radius: 8px 8px 0px 0px;
+}
+.article__wrap:before{
+  right: 90px;
 }
 .wrap:after {
   width: 8px;
   height: 40px;
-  right: 0px;
-  top: 90px;
   background: #5B120A;
   border-radius: 0px 8px 8px 0px;
+}
+.article__wrap:after{
+  right: 0px;
+  top: 90px;
 }
 .ribbon {
   width: 200px;
   height: 30px;
   line-height: 40px;
-  position: absolute;
-  top: 30px;
-  right: -50px;
-  z-index: 2;
   overflow: hidden;
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
   border: 1px dashed;
   box-shadow:0 0 0 3px #af1c0b,  0px 21px 5px -18px rgba(0,0,0,0.6);
   background: #af1c0b;
   text-align: center;
+}
+.wrap__ribbon{
+  position: absolute;
+  top: 30px;
+  right: -50px;
+  z-index: 2;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 .article__text{
     margin: 0 0 10px 0;
@@ -100,16 +111,19 @@
     grid-template-columns: 0.3fr 1fr;
 }
 .article__button{
-	  background: #eb6c1f;
     padding: 5px 15px;
-    border-radius: 8px;
     position: absolute;
     right: 50px;
 }
 .article__title{
-  margin-left: 20px;
+    padding-bottom: 15px;
+    margin-left: 20px;
 }
 
 .content__text{
     position: relative;
+}
+.button_orange{
+  background: #eb6c1f;
+  border-radius: 8px;
 }

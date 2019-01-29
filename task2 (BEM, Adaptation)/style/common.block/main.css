@@ -5,12 +5,12 @@
     grid-template-columns: 1fr 0.4fr;
     grid-gap: 0 10px;
 }
-.main_center{
+.page__main{
 	margin-left: 50px;
 	margin-right: 40px;
 }
 .main__menu{
-	 margin-left: 25px;
+	 margin-left: 50px;
 }
 .main__nav{
 	grid-area: header;
@@ -19,39 +19,25 @@
 .main__article {
 	grid-area: article;
 }
+.aside{
+    background: #e4dfdf;
+}
 .main__aside {
-	grid-area: aside;
-	background: #e4dfdf;
-	padding: 0 15px;
+	padding: 10px 15px;
+    grid-area: aside;
 }
-
-.main__burger {
-	 display: none;
-    color: #ffffff;
+.burger{
     font-size: 1.5rem;
-    top: 150px;
-    background: #2e1121;
-    left: 0;
-    padding: 0 5px;
-    display: po;
-    position: absolute;
-}
-.sidebar__burger{
-	position: absolute;
     color: #464343;
     background: #00b8ff;
     padding: 0 5px;
-    font-size: 1.5rem;
+}
+.sidebar__burger{
+	position: absolute;
     display: none;
     right: 0;
-    top: 150px;
+    top: 137px;
 }
-#burger__menu {
+.check {
     display: none;
-    right: 3rem;
-    top: 3rem;
 }
-#burger__left{
-	display: none;
-}
-

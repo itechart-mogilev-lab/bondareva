@@ -1,4 +1,4 @@
-.text-uppercase{
+.text_uppercase{
     text-transform: uppercase;
 }
 .text_raleway{
@@ -6,6 +6,9 @@
 }
 body{
 	font-family: 'Krub', sans-serif;
+}
+*{
 	margin: 0;
+	padding: 0;
 }
 

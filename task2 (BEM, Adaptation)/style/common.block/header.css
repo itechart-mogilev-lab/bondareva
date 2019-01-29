@@ -1,10 +1,14 @@
 .header {
 	color: white;
+}
+.page__header{
     position: relative;
 }
-.header__up{
+.up{
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(129,49,27,1) 14%, rgba(208,80,21,1) 32%, rgba(190,92,42,1) 43%, rgba(104,146,138,1) 69%, rgba(0,212,255,1) 100%);
+}
+.header__up{
     padding-bottom: 15px;
 }
 .header__down {
@@ -17,45 +21,59 @@
      background: linear-gradient(90deg, rgba(64,24,32,0.99) 0%, rgba(129,49,27,1) 8%, rgba(153,59,25,1) 17%, rgba(208,80,21,1) 32%, rgba(190,92,42,1) 43%, rgba(104,146,138,1) 69%, rgba(27,201,233,1) 100%);
     border-radius: 0 0 20px 20px;
 }
-.header__title{
-	padding: 15px 50px;
+.header__headline{
+	padding: 30px 50px;
     margin-left: 60px;
     display: inline-block;
 }
-.headline__h1{
+.headline__main-header{
 	margin-bottom: 0;
 }
-.headline__h4{
+.headline__subheader{
 	margin-top:0; 
     background: #712a1c;
 }
-.header__nav_top-left{
+.nav{
+    padding: 5px;
+}
+.nav_border{
+    border-radius: 0 0 15px 15px;
+    background: #9c562b94;
+}
+.nav__text{
+    margin-bottom:16px; 
+}
+.header__nav{
 	position: absolute;
     right: 60px;
-    background: #9c562b94;
-    border-radius: 0 0 15px 15px;
 }
-
-.search-form_ritght{
+.header__menu{
+    margin: 5px;
+    padding-left: 10px;
+}
+.header__search-form{
 	position: absolute;
     right: 60px;
     bottom: 15px;
 }
 .search-form__input{
 	padding: 5px 0 5px 10px;
+}
+.input{
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     border-radius:  10px 0 0 10px ;
 }
-
-.search-form__button{
-	padding: 5px;
-    margin-left: -5px;
+.button{
     border-radius: 0 10px 10px 0;
     background: #bf7048;
     border: 1px solid #ffffff;
+}
+.search-form__button{
+	padding: 5px;
+    margin-left: -5px;
 }
 
 
