@@ -12,4 +12,16 @@
 	.main__menu{
 		margin-left: 100px;
 	}
+	.user-inform__content{
+		display: block;
+	}
+	.user-inform__info{
+		margin: 0;
+	}
+
+}
+@media (min-width: 1025px) and (max-width: 1232px){
+	.main{
+		grid-template-columns: 1fr 0.5fr;
+	}
 }

@@ -55,7 +55,7 @@
 .article__wrap{
   position: absolute;
   top: -8px;
-  left: 8px;
+  right: -8px;;
 }
 .article__wrap:before, .article__wrap:after {
   content: ""; 
@@ -100,8 +100,9 @@
   transform: rotate(45deg);
 }
 .article__text{
-    margin: 0 0 10px 0;
+    margin: 0 15px 10px 0;
     height: 120px;
+    padding-right: 5px;
     overflow: hidden;
 }
 .article__content{
