@@ -30,3 +30,14 @@
 .user-inform__image {
     height: 100px;
 }
+.user-inform__icon-close{
+	position: absolute;
+	right: 10px;
+	display: none;
+}
+.icon-close{
+	font-size: 20px;
+}
+.user-inform__header{
+	display: flex;
+}
