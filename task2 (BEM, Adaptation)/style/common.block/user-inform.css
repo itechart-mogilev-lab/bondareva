@@ -4,38 +4,43 @@
 .aside__user-inform{
 	margin-bottom: 20px;
 }
-.user-inform__content{
+.box{
 	display: flex;
 }
-.user-inform__content_orange{
+.box__info{
+	margin-left: 10px;
+}
+.wrapper_orange{
 	height: 110px;
 	width: 100px;
     background: orange;
     padding: 10px 5px 0 5px;
     border-radius: 0 10px 4px 4px;
 }
-.user-inform__content_white{
+.wrapper_white{
 	background: white;
     padding: 5px 0 0 0;
     border-radius: 0 5px 5px;
 }
-.user-inform__info{
-	margin-left: 10px;
+.info{
+	text-align: left;
 }
-.user-inform__name{
-	margin: 0;
+.subtitle-user{
 	font-style: italic;
 }
-
-.user-inform__image {
+.user-inform__title{
+	margin-bottom:16px; 
+}
+.userpic {
     height: 100px;
 }
-.user-inform__icon-close{
+.user-inform__fa-times{
 	position: absolute;
-	right: 10px;
-	display: none;
+	right: 20px;
+	top: 10px;
 }
-.icon-close{
+.fa-times{
+	display: none;
 	font-size: 20px;
 }
 .user-inform__header{

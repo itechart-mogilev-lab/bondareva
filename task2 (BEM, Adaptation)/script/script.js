@@ -1,8 +1,9 @@
-var aside =  document.querySelector(".main__aside");
+var burder =  document.querySelector(".main__burger-check");
+
+function showAside(){
+    burder.checked = true;
+}
 
 function closeAside(){
-    aside.style.display = "none";
-}
-function showAside(){
-    aside.style.display = "block";
+	burder.checked = false;
 }

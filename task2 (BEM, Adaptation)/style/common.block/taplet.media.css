@@ -1,5 +1,5 @@
 @media (min-width: 768px) and (max-width: 1024px) {
-	.article__image{
+	.preview__image{
 		width: 180px;
 		height: 150px;
 	}
@@ -12,10 +12,13 @@
 	.main__menu{
 		margin-left: 100px;
 	}
-	.user-inform__content{
+	.info{
+		padding-top: 10px;
+	}
+	.box{
 		display: block;
 	}
-	.user-inform__info{
+	.box__info{
 		margin: 0;
 	}
 
@@ -23,5 +26,17 @@
 @media (min-width: 1025px) and (max-width: 1232px){
 	.main{
 		grid-template-columns: 1fr 0.5fr;
+	}
+}
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 1600px) and (max-width: 2699px) {
+	html {
+		font-size: 20px;
 	}
 }

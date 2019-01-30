@@ -20,6 +20,7 @@
 	grid-area: article;
 }
 .aside{
+    display: block;
     background: #e4dfdf;
 }
 .main__aside {
@@ -32,12 +33,26 @@
     background: #00b8ff;
     padding: 0 5px;
 }
+.sidebar{
+    display: block;
+}
 .sidebar__burger{
 	position: absolute;
     display: none;
     right: 0;
-    top: 137px;
+    top: 0;
 }
-.check {
+.burger-check{
     display: none;
+}
+.main__burger-check{
+    position: absolute;
+    top: 0; 
+    right: 20px;
+}
+.main__burger{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
 }

@@ -1,10 +1,13 @@
-.list {
+.list-section {
 	list-style: none;
 }
-.list__item {
+.list-section__item-li {
     margin-bottom: 12px;
 }
-.item{
-	font-size: 0.85em;
+.item-li{
+	font-size: 0.9em;
 	border-bottom: 1px solid;
+}
+.list-section__title{
+    margin-bottom:16px; 
 }
