@@ -1,0 +1,17 @@
+.footer{
+	background: #254155;
+	text-align: center;
+    height: 50px;
+}
+.page__footer{
+    position: relative;
+    margin: 10px 40px 0 50px;
+}
+.footer__text{
+    padding: 15px;
+	top: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

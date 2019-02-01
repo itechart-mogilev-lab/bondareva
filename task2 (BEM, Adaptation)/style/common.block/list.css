@@ -1,0 +1,13 @@
+.list-section {
+	list-style: none;
+}
+.list-section__item-li {
+    margin-bottom: 12px;
+}
+.item-li{
+	font-size: 0.9em;
+	border-bottom: 1px solid;
+}
+.list-section__title{
+    margin-bottom:16px; 
+}

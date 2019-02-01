@@ -1,0 +1,135 @@
+.article{
+    padding: 10px 25px;
+    border-bottom: 1px solid #afb3b7;
+    position: relative;
+}
+.article_grey{
+  background: #cac9c9;
+  border-bottom: 0;
+}
+.article_grey::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 50px solid #94979796;
+    border-right: 50px solid transparent;
+    right: 0;
+    bottom: 0;
+}
+.article_grey::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-bottom:  50px solid #FFFFFFFF;
+    border-left: 50px solid transparent;
+    right: 0;
+    bottom: 0;
+}
+.image{
+    height: 150px;
+    width: 200px;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+}
+.image_man{
+   background-image: url(../../img/man.jpg);
+}
+.image_cat{
+   background-image: url(../../img/cat.jpg);
+}
+.image_laptop{
+   background-image: url(../../img/laptop.jpg);
+}
+.preview__image {
+    padding: 5px;
+}
+.wrap {
+  width: 100%;
+  height: 188px;
+  overflow: hidden;
+}
+.article__wrap{
+  position: absolute;
+  top: -8px;
+  right: -8px;;
+}
+.article__wrap:before, .article__wrap:after {
+  content: ""; 
+  position: absolute;
+}
+
+.wrap:before {
+  width: 40px;
+  height: 8px;
+  background: #5B120A;
+  border-radius: 8px 8px 0px 0px;
+}
+.article__wrap:before{
+  right: 90px;
+}
+.wrap:after {
+  width: 8px;
+  height: 40px;
+  background: #5B120A;
+  border-radius: 0px 8px 8px 0px;
+}
+.article__wrap:after{
+  right: 0px;
+  top: 90px;
+}
+.ribbon {
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+  border: 1px dashed;
+  box-shadow:0 0 0 3px #af1c0b,  0px 21px 5px -18px rgba(0,0,0,0.6);
+  background: #af1c0b;
+  text-align: center;
+}
+.wrap__ribbon{
+  position: absolute;
+  top: 30px;
+  right: -50px;
+  z-index: 2;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.excerpt{
+  font-family: 'Muli', sans-serif;
+  height: 120px;
+  padding-right: 5px;
+  overflow: hidden;
+}
+.preview__excerpt{
+    margin: 0 15px 10px 0;
+}
+.preview{
+  height: 200px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 0.3fr 1fr;
+}
+.preview__btn-control{
+    position: absolute;
+    right: 50px;
+}
+.title-preview{
+    padding-bottom: 15px;
+}
+.article__title-preview{
+    margin-left: 20px;
+}
+.preview__text{
+    position: relative;
+}
+.btn-control{
+  padding: 5px 15px;
+  background: #eb6c1f;
+  border-radius: 8px;
+  text-transform: uppercase;
+}

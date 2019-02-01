@@ -1,0 +1,45 @@
+.user-inform{
+    overflow: hidden;
+}
+.aside__user-inform{
+	margin-bottom: 20px;
+}
+.box{
+	display: flex;
+}
+.box__info{
+	margin-left: 10px;
+}
+.wrapper_orange{
+	height: 110px;
+	width: 100px;
+    background: orange;
+    padding: 10px 5px 0 5px;
+    border-radius: 0 10px 4px 4px;
+}
+.wrapper_white{
+	background: white;
+    padding: 5px 0 0 0;
+    border-radius: 0 5px 5px;
+}
+.subtitle-user{
+	font-style: italic;
+}
+.user-inform__title{
+	margin-bottom:16px; 
+}
+.userpic {
+    height: 100px;
+}
+.user-inform__fa-times{
+	position: absolute;
+	right: 20px;
+	top: 10px;
+}
+.fa-times{
+	display: none;
+	font-size: 20px;
+}
+.user-inform__header{
+	display: flex;
+}
