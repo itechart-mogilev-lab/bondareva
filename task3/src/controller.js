@@ -1,13 +1,13 @@
-export class Controller{
-    constructor(value){
-        this.value= value;
-    }
+export class Controller {
+  constructor(value) {
+    this.value = value;
+  }
 
-    getValue(){
-        return this.value;
-    }
+  getValue() {
+    return this.value;
+  }
 
-    exponentiation(power){
-        this.value**=power;
-    }
+  exponentiation(power) {
+    this.value **= power;
+  }
 }
