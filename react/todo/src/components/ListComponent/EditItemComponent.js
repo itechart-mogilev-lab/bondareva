@@ -1,4 +1,6 @@
 import React , {Component} from "react";
+import Button from '@material-ui/core/Button';
+import TextField from '@material-ui/core/TextField';
 
 export default class EditItemComponent extends Component{
     constructor(props){
@@ -19,10 +21,25 @@ export default class EditItemComponent extends Component{
 
     render(){
         return(
-            <form onSubmit={this.props.saveMethod}>
-                <input type="text" value={this.state.name} onChange={this.changeName.bind(this)} name="name"/>
-                <input type="text" value={this.state.description} onChange={this.changeDescription.bind(this)} name="description"/>
-                <button type="submit">Save</button>
+            <form onSubmit={this.props.saveMethod} className="form">
+                <TextField
+                    label="Name"
+                    // className={classes.textField}
+                    name="name"
+                    value={this.state.name}
+                    onChange={this.changeName.bind(this)}
+                    margin="normal"
+                />
+                <TextField
+                    label="Description"
+                    // className={classes.textField}
+                    name="description"
+                    value={this.state.description}
+                    onChange={this.changeDescription.bind(this)}
+                    margin="normal"
+                />
+                <Button variant="outlined" color="primary" type="submit" size="small">Save</Button> 
+
             </form>
         );
     }

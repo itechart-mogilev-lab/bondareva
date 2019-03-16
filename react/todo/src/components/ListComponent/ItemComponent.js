@@ -1,5 +1,10 @@
 import React , {Component} from "react";
 import EditItemComponent from './EditItemComponent';
+import Button from '@material-ui/core/Button';
+import Card from '@material-ui/core/Card';
+import CardActions from '@material-ui/core/CardActions';
+import CardContent from '@material-ui/core/CardContent';
+import Typography from '@material-ui/core/Typography';
 
 export default class ItemComponent extends Component{
     
@@ -32,20 +37,32 @@ export default class ItemComponent extends Component{
         
         if(this.state.isEdit){
             return(
-                <EditItemComponent
-                    name={this.state.name}
-                    description={this.state.description}
-                    saveMethod={this.saveItem}
-                />
+                <Card className="card">
+                    <EditItemComponent
+                        name={this.state.name}
+                        description={this.state.description}
+                        saveMethod={this.saveItem}
+                    />
+                </Card>
             );
         } else {
             return(
-                <React.Fragment>
-                    <p>Name: {this.state.name}</p>
-                    <p>Description: {this.state.description}</p>
-                    <button onClick={this.showEditFields}>Change item</button>
-                    <button onClick={this.props.deleteMethod}>Delete item</button>
-                </React.Fragment>
+                <Card className="card">
+                     <CardContent>
+                        <Typography gutterBottom variant="h6">
+                            Name: {this.state.name}
+                        </Typography>
+                        <Typography component="p">
+                            Description: {this.state.description}
+                        </Typography>
+                     </CardContent>
+                    
+                    
+                    <CardActions>
+                        <Button  variant="contained" color="primary" onClick={this.showEditFields}>Change item</Button> 
+                        <Button variant="outlined" color="secondary" onClick={this.props.deleteMethod}>Delete item</Button> 
+                    </CardActions>
+                </Card>
             );
         }
         

@@ -1,8 +1,16 @@
 import React , {Component} from "react";
 import ItemComponent from './ItemComponent';
 import AddItemComponent from './AddItemComponent';
+import Button from '@material-ui/core/Button';
+import { withStyles} from '@material-ui/core/styles';
 
-export default class ListComponent extends Component{
+const styles =  {
+    btn: {
+      margin: '20px 0'
+    }
+  };
+
+class ListComponent extends Component{
     
     constructor(){
         super();
@@ -64,17 +72,21 @@ export default class ListComponent extends Component{
             );
         } else{
             return(
-                <button onClick={this.showAddItem}>Add new item</button>
+                <Button variant="outlined" color="primary" className={this.props.classes.btn} onClick={this.showAddItem}>
+                    Add new item
+                </Button>
             );
         }
     }
 
     render(){
         return(
-            <div>
+            <div className="list">
                 {this.headerRender()}
                 {this.state.items.map(this.eachItem)}
             </div>
         );
     }
 }
+
+export default withStyles(styles)(ListComponent);

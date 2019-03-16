@@ -1,3 +1,25 @@
 .App {
   text-align: center;
 }
+
+.card{
+  width: 300px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
+.btn-save{
+  margin-top: 50px;
+}
