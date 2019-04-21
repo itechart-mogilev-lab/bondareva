@@ -13,8 +13,7 @@ import axios from "axios";
 import { initializePreviousToken } from "./utils/authentication";
 import "./index.css";
 
-// axios.defaults.baseURL = process.env.REACT_APP_API_URL;
-axios.defaults.baseURL = "http://localhost:3050/api";
+axios.defaults.baseURL = process.env.REACT_APP_API_URL;
 axios.default.timeout = 3000;
 initializePreviousToken(store);
 
