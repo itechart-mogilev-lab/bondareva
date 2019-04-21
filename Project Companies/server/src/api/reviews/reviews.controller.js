@@ -22,10 +22,3 @@ module.exports.post = async (req, res, next) => {
     })
     .catch(err => next(err));
 };
-
-module.exports._delete = async (req, res, next) => {
-  service
-    .deleteReview(req.params.idReview, req.user._id)
-    .then(res.status(httpStatus.OK).json("Ok"))
-    .catch(err => next(err));
-};

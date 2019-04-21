@@ -39,12 +39,8 @@ async function getByIdReviewsCompany(_id, { page }) {
   const reviews = await Review.paginate(query, options);
   return reviews;
 }
-async function deleteReview(_id, customer) {
-  return await Review.remove({ _id, customer });
-}
 
 module.exports = {
   createReview,
-  deleteReview,
   getByIdReviewsCompany
 };

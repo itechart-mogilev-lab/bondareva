@@ -6,7 +6,6 @@ const validation = require("../../middleware/validation");
 const schemas = require("../../validation").review;
 
 router.get("/", controller.getReviewsCompany);
-router.delete("/:idReview", permit([Role.Customer]), controller._delete);
 router.post(
   "/",
   permit(Role.Customer),
