@@ -39,7 +39,6 @@ function setNewUserState(state, payload) {
     isLoading: false,
     isAuthenticated: true,
     profile: payload.profile,
-    role: payload.profile.role
   };
 }
 
