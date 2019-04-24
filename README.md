@@ -6,4 +6,4 @@ Send pull request
 https://vikabondareva.github.io
 ![alt text](https://github.com/VikaBondareva/bondareva/blob/master/task2%20(BEM%2C%20Adaptation)/screenshots/EA23iPIktyg.jpg)
 ## Task 3 
->***Webpack&Babel***
+***Webpack&Babel***
